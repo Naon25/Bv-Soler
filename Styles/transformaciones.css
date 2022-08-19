@@ -20,7 +20,7 @@
  }
 
  #border{
-    border: 01px solid black;
+    
  }
 
  .navegacion{
@@ -44,7 +44,7 @@
  }
 
  .menu {
-    height: 20vh;
+    height: 300px;
     animation-name: title;
     animation-duration: 7s;
     animation-iteration-count: infinite;
