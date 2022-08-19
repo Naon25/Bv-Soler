@@ -1,0 +1,82 @@
+<!DOCTYPEType html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Styles/styles.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <title>CVT</title>
+</head>
+
+
+<body class="body">   
+
+    <header>
+        <nav class="header__nav--inicio">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li> 
+            </ul>   
+        </nav>
+    </header>
+    
+    <form class="body__form">
+        <h1>Datos personales</h1>
+        
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="texto">
+
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="texto">
+        
+
+        <label>Pais:</label>
+        <select>
+            <option>Argentina</option>
+            <option>Paraguay</option>
+            <option>Uruguay</option>
+            <option>Chile</option>
+        </select>
+        
+
+        <label>Sexo:</label>
+        <div>
+            <label>Hombre</label>
+            <input type="radio" name="sexo">
+            <label>Mujer</label>
+            <input type="radio" name="sexo">
+            <label>Otro</label>
+            <input type="radio" name="sexo">
+        </div>
+
+        <label for="mail">Mail:</label>
+        <input id="mail" type="texto">
+        
+
+        <label for="telefono">Telefono:</label>
+        <input id="telefono" type="number">
+        
+
+        <label for="direccion">Dirección:</label>
+        <input id="direccion" type="texto">
+        
+
+        <label for="contra">Contraseña:</label>
+        <input id="contra" type="password">
+        
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion"></textarea>
+        
+        
+        <label for="terminos">Acepto terminos y condiciones
+            <input id="terminos" type="checkbox">
+        </label>
+
+        <input type="submit" value="Guardar">
+
+    </form>
+    
+    
+</body>
+</html>
