@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ body{
+    background-color:  rgb(187, 126, 47);
+    font-family: Inter;
+    font-size: 18px;
+ }
+
+ header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ #border{
+    border: 01px solid black;
+ }
+
+ .navegacion{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(136, 69, 69);
+    justify-content: center;
+    align-items: center;    
+ }
+
+ section, article {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .navegacion a{
+    color: black;
+ }
+
+ .menu {
+    height: 20vh;
+    animation-name: title;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background-image: url(../Imagenes/facturas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .menu h1{
+    font-size: 7rem;
+    font-family: "Abil Fatface", cursive;
+    text-shadow: rgb(233, 191, 157) 5px 5px ;
+ }
+
+ @keyframes title {
+    0% {color: rgb(46, 44, 44);}
+    50% { color: rgb(170, 60, 60)}
+    100% { color: rgb(46, 44, 44);}
+  }
