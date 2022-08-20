@@ -7,7 +7,7 @@
  }
 
  body{
-    background-color:  rgb(187, 126, 47);
+    background-color:  rgb(228, 197, 168);
     font-family: Inter;
     font-size: 18px;
  }
@@ -32,7 +32,7 @@
     align-items: center;    
  }
 
- section, article {
+ section {
     display: flex;
     padding: 0px;
     justify-content: center;
@@ -55,7 +55,7 @@
 
  .menu h1{
     font-size: 7rem;
-    font-family: "Abil Fatface", cursive;
+    font-family: 'Abril Fatface', cursive;
     text-shadow: rgb(233, 191, 157) 5px 5px ;
  }
 
@@ -64,3 +64,67 @@
     50% { color: rgb(170, 60, 60)}
     100% { color: rgb(46, 44, 44);}
   }
+
+@keyframes menu {
+   50% { font-size: 23px;}
+}
+
+article{
+   height: 900px;
+   width: 800px;
+   display: grid;
+   grid-template-areas: 
+   "precio precio "
+   "dia comida";
+   grid-template-rows: 100px 800px;
+   grid-template-columns: 150px 650px;
+  }
+
+#precio{
+   grid-area: precio;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   color: rgb(102, 38, 19);
+  }
+
+.menu_opc{
+   justify-content:space-around ;
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   flex-direction: column;
+}
+
+
+#dia{
+   grid-area: dia;
+   display: flex;
+   border-right: 3px solid  rgb(139, 40, 15);
+   animation-name: menu;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+  }
+#comida{
+   grid-area: comida;
+   margin-left: 50px;
+  }
+
+#nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+p{
+   font-weight: bold;
+   color: rgb(102, 38, 19);
+   text-align:center;  
+}
+
+p:hover {
+   font-size: 25px;
+   color: rgb(48, 54, 13);
+}
