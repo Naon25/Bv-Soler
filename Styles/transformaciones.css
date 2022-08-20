@@ -55,7 +55,7 @@
 
  .menu h1{
     font-size: 7rem;
-    font-family: "Abil Fatface", cursive;
+    font-family: 'Abril Fatface', cursive;
     text-shadow: rgb(233, 191, 157) 5px 5px ;
  }
 
@@ -63,4 +63,9 @@
     0% {color: rgb(46, 44, 44);}
     50% { color: rgb(170, 60, 60)}
     100% { color: rgb(46, 44, 44);}
+  }
+
+  .menu_opc{
+   height: 800px;
+   width: 400px;
   }
