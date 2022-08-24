@@ -29,12 +29,6 @@
     align-items: center;    
  }
 
- section {
-    display: flex;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
- }
 
  .navegacion a{
     color: black;
@@ -47,13 +41,14 @@
     animation-iteration-count: infinite;
     background-image: url(../Imagenes/facturas.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
  }
 
  .menu h1{
     font-size: 7rem;
     font-family: 'Abril Fatface', cursive;
     text-shadow: rgb(233, 191, 157) 5px 5px ;
+    text-align: center;
  }
 
  @keyframes title {
