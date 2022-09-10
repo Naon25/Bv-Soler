@@ -1,0 +1,13 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    form{
+        background-color: $colorTienda;
+        border: 01px solid black;
+        width: 290px;
+        padding: $cardsPadding;
+        margin-top: 150px;
+    }
+    
+}

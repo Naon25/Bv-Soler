@@ -146,4 +146,16 @@
   100% {
     color: rgb(46, 44, 44);
   }
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.formulario form {
+  background-color: rgb(182, 70, 50);
+  border: 1px solid black;
+  width: 290px;
+  padding: 15px;
+  margin-top: 150px;
 }/*# sourceMappingURL=styles.css.map */
