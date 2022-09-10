@@ -14,9 +14,34 @@
 }
 
 .productos {
-  background-color: rgb(14, 8, 4);
-  width: 200px;
-  height: 200px;
+  margin: 40px;
+  padding: 15px;
+  background-color: rgb(182, 70, 50);
+  width: auto;
+  height: auto;
+}
+
+.cartas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.escala {
+  width: 60%;
+  align-self: center;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 40px;
+  background-color: rgb(182, 70, 50);
+  color: rgb(102, 38, 19);
+  background-image: linear-gradient(rgb(182, 70, 50), rgb(216, 162, 44), rgb(182, 70, 50));
 }
 
 .headerMenu {

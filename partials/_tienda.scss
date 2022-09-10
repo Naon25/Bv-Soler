@@ -1,5 +1,30 @@
 .productos{
-    background-color: rgb(14, 8, 4);
-    width: 200px;
-    height: 200px;
+    margin: $margenTienda;
+    padding: $cardsPadding;
+    background-color: $colorTienda;
+    width: auto;
+    height: auto;
+}
+
+.cartas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $cardsPadding;
+}
+
+.escala{
+    width: $escalaTienda;
+    align-self: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $cardsPadding;
+    margin: $margenTienda;
+    background-color: $colorTienda;
+    color: $colorLogo;
+    background-image: linear-gradient($colorTienda, rgb(216, 162, 44), $colorTienda);
 }
