@@ -161,13 +161,13 @@
 }
 
 .perfil {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 40px;
   margin-top: 50px;
-  width: 800px;
+  width: auto;
 }
 .perfil div {
   padding: 20px;
+}
+.perfil img {
+  width: auto;
 }/*# sourceMappingURL=styles.css.map */

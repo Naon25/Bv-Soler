@@ -1,11 +1,11 @@
 .perfil{
-   display: flex;
-   justify-content: center;
-   align-items: center;
    padding: 40px;
    margin-top: 50px;
-   width: 800px;
+   width: auto;
    div{
     padding: 20px;
+   }
+   img{
+    width: auto;
    }
 }
