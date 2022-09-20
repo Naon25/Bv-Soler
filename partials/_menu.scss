@@ -1,6 +1,8 @@
 .menu {
+    justify-content: center;
+    align-self: center;
     h1{
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: 'Abril Fatface', cursive;
         text-shadow: rgb(233, 191, 157) 5px 5px ;
         text-align: center;
@@ -34,7 +36,7 @@
     justify-content:space-around ;
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.5rem;
     flex-direction: column;
     p{
         font-weight: bold;
@@ -67,4 +69,18 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+@media (min-width: 568px) and (max-width: 768px){
+    .article{
+        transform: scale(0.7,0.7);
+        margin-top: -160px;
+    }
+}
+
+@media (max-width: 568px) {
+    .article{
+        transform: scale(0.6,0.6);
+        margin-top: -220px;
+    }
 }
